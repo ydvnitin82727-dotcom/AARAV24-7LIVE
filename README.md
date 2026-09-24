@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>S1L3NT Music 24×7</title>
+  <title>aarav24*7 steam</title>
 
   <style>
     * {
@@ -15,202 +15,100 @@
     }
 
     body {
-      min-height: 100vh;
-      background:
-        radial-gradient(circle at top, #20202b, #08080c 65%);
+      background: #0b0b0b;
       color: white;
-      padding: 20px;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 850px;
-      margin: auto;
     }
 
     header {
+      background: #151515;
+      padding: 18px;
       text-align: center;
-      padding: 25px 10px;
+      border-bottom: 2px solid #ff1744;
     }
 
-    .logo {
-      font-size: 42px;
-      font-weight: 900;
-      letter-spacing: 4px;
+    header h1 {
+      font-size: 28px;
+      color: #ff1744;
     }
 
-    .tagline {
+    header p {
+      margin-top: 5px;
       color: #aaa;
-      margin-top: 8px;
-      font-size: 14px;
+    }
+
+    .player-box {
+      width: 95%;
+      max-width: 900px;
+      margin: 30px auto;
+      background: #151515;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(255, 23, 68, 0.25);
     }
 
     .live {
       display: inline-block;
-      margin-top: 15px;
-      padding: 7px 15px;
-      border-radius: 30px;
-      background: #251515;
-      color: #ff5555;
-      font-size: 13px;
+      background: red;
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
     }
 
-    .card {
-      background: rgba(25,25,33,.95);
-      border: 1px solid #30303a;
-      border-radius: 22px;
-      padding: 18px;
-      box-shadow: 0 20px 70px rgba(0,0,0,.5);
-    }
-
-    .video {
+    video {
       width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #000;
-      border-radius: 16px;
-      overflow: hidden;
+      height: 400px;
+      background: black;
+      border-radius: 10px;
     }
 
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-
-    .now {
-      text-align: center;
-      padding: 20px 5px;
-    }
-
-    .now small {
-      display: block;
-      color: #999;
-      margin-bottom: 7px;
-    }
-
-    .now h2 {
-      font-size: 20px;
-    }
-
-    .controls {
+    .buttons {
       display: flex;
-      justify-content: center;
       gap: 10px;
+      margin-top: 18px;
       flex-wrap: wrap;
-      margin-bottom: 20px;
     }
 
     button {
-      border: 0;
-      border-radius: 12px;
-      padding: 12px 17px;
-      background: #292934;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: #ff1744;
       color: white;
+      font-size: 15px;
       cursor: pointer;
-      font-size: 14px;
-      transition: .2s;
     }
 
     button:hover {
-      transform: translateY(-2px);
-      background: #3a3a48;
+      background: #d50032;
     }
 
-    .main-btn {
-      background: white;
-      color: black;
-      font-weight: bold;
+    .info {
+      width: 95%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #151515;
+      padding: 20px;
+      border-radius: 15px;
     }
 
-    .add-box {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 20px;
-    }
-
-    input {
-      width: 100%;
-      padding: 14px;
-      border: 1px solid #33333d;
-      border-radius: 12px;
-      background: #111117;
-      color: white;
-      outline: none;
-    }
-
-    input:focus {
-      border-color: #777;
-    }
-
-    .playlist-title {
+    .info h2 {
       margin-bottom: 10px;
-      font-size: 17px;
-    }
-
-    .playlist {
-      max-height: 330px;
-      overflow-y: auto;
-    }
-
-    .song {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      padding: 13px;
-      margin-bottom: 8px;
-      border-radius: 12px;
-      background: #20202a;
-      cursor: pointer;
-    }
-
-    .song:hover {
-      background: #2a2a36;
-    }
-
-    .song.active {
-      border: 1px solid #777;
-      background: #30303c;
-    }
-
-    .song-name {
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-    }
-
-    .delete {
-      padding: 7px 10px;
-      background: #472323;
     }
 
     footer {
       text-align: center;
-      color: #777;
-      padding: 25px 5px;
-      font-size: 13px;
+      padding: 25px;
+      color: #888;
     }
 
     @media (max-width: 600px) {
-
-      body {
-        padding: 10px;
+      video {
+        height: 220px;
       }
 
-      .logo {
-        font-size: 32px;
-      }
-
-      .card {
-        padding: 12px;
-      }
-
-      .add-box {
-        flex-direction: column;
-      }
-
-      button {
-        padding: 11px 14px;
+      header h1 {
+        font-size: 22px;
       }
     }
   </style>
@@ -218,459 +116,78 @@
 
 <body>
 
-  <div class="container">
+  <header>
+    <h1>🎵 aarav24*7 steam</h1>
+    <p>24/7 Music Live Stream</p>
+  </header>
 
-    <header>
-      <div class="logo">S1L3NT</div>
+  <main>
 
-      <div class="tagline">
-        Music • Beats • Vibes — 24×7
+    <section class="player-box">
+
+      <span class="live">🔴 LIVE</span>
+
+      <video id="player" controls autoplay>
+        <!--
+          YAHAN APNI LEGAL STREAM/VIDEO FILE KA URL LAGAO
+
+          Example:
+          <source src="https://example.com/live.mp4" type="video/mp4">
+        -->
+        Your browser does not support video playback.
+      </video>
+
+      <div class="buttons">
+        <button onclick="playStream()">▶ Play</button>
+        <button onclick="pauseStream()">⏸ Pause</button>
+        <button onclick="muteStream()">🔇 Mute</button>
+        <button onclick="unmuteStream()">🔊 Unmute</button>
+        <button onclick="fullscreen()">⛶ Fullscreen</button>
       </div>
 
-      <div class="live">
-        🔴 LIVE MUSIC
-      </div>
-    </header>
+    </section>
 
+    <section class="info">
+      <h2>🎶 aarav24*7 steam</h2>
+      <p>
+        Welcome to aarav24*7 steam.
+        Enjoy our continuous music stream.
+      </p>
+    </section>
 
-    <div class="card">
+  </main>
 
-      <!-- YouTube Player -->
-      <div class="video">
+  <footer>
+    © 2026 aarav24*7 steam
+  </footer>
 
-        <iframe
-          id="player"
-          src=""
-          allow="autoplay; encrypted-media; picture-in-picture"
-          allowfullscreen>
-        </iframe>
+  <script>
+    const player = document.getElementById("player");
 
-      </div>
-
-
-      <!-- Current Song -->
-      <div class="now">
-
-        <small>NOW PLAYING</small>
-
-        <h2 id="nowPlaying">
-          Select a song
-        </h2>
-
-      </div>
-
-
-      <!-- Controls -->
-      <div class="controls">
-
-        <button onclick="previousSong()">
-          ⏮ Previous
-        </button>
-
-        <button
-          class="main-btn"
-          onclick="nextSong()">
-          Next ⏭
-        </button>
-
-        <button
-          id="shuffleBtn"
-          onclick="toggleShuffle()">
-          🔀 Shuffle OFF
-        </button>
-
-        <button
-          id="repeatBtn"
-          onclick="toggleRepeat()">
-          🔁 Repeat OFF
-        </button>
-
-      </div>
-
-
-      <!-- Add YouTube Song -->
-      <div class="add-box">
-
-        <input
-          id="youtubeUrl"
-          type="text"
-          placeholder="Paste YouTube song URL here...">
-
-        <button onclick="addSong()">
-          ➕ Add Song
-        </button>
-
-      </div>
-
-
-      <div class="playlist-title">
-        🎵 Playlist
-      </div>
-
-      <div
-        class="playlist"
-        id="playlist">
-      </div>
-
-    </div>
-
-
-    <footer>
-      © 2026 S1L3NT Music 24×7
-    </footer>
-
-  </div>
-
-
-<script>
-
-  /*
-  ========================================
-       S1L3NT MUSIC 24×7
-       YouTube Music Player
-  ========================================
-  */
-
-
-  let songs = [
-
-    {
-      id: "dQw4w9WgXcQ",
-      name: "Sample Song"
+    function playStream() {
+      player.play();
     }
 
-  ];
+    function pauseStream() {
+      player.pause();
+    }
 
+    function muteStream() {
+      player.muted = true;
+    }
 
-  let currentIndex = 0;
+    function unmuteStream() {
+      player.muted = false;
+    }
 
-  let shuffle = false;
-
-  let repeat = false;
-
-
-  const player =
-    document.getElementById("player");
-
-  const nowPlaying =
-    document.getElementById("nowPlaying");
-
-  const playlist =
-    document.getElementById("playlist");
-
-
-  // Get YouTube Video ID
-  function getYouTubeId(url) {
-
-    try {
-
-      const parsed = new URL(url);
-
-      if (
-        parsed.hostname.includes("youtu.be")
-      ) {
-
-        return parsed.pathname.substring(1);
-
+    function fullscreen() {
+      if (player.requestFullscreen) {
+        player.requestFullscreen();
+      } else if (player.webkitRequestFullscreen) {
+        player.webkitRequestFullscreen();
       }
-
-      if (
-        parsed.hostname.includes("youtube.com")
-      ) {
-
-        return parsed.searchParams.get("v");
-
-      }
-
-    } catch (error) {
-
-      return null;
-
     }
-
-    return null;
-
-  }
-
-
-  // Load Song
-  function loadSong(index) {
-
-    if (!songs.length) return;
-
-    currentIndex = index;
-
-    const song = songs[currentIndex];
-
-    player.src =
-      "https://www.youtube.com/embed/" +
-      song.id +
-      "?autoplay=1&rel=0";
-
-    nowPlaying.textContent =
-      song.name;
-
-    renderPlaylist();
-
-  }
-
-
-  // Next Song
-  function nextSong() {
-
-    if (!songs.length) return;
-
-
-    if (repeat) {
-
-      loadSong(currentIndex);
-
-      return;
-
-    }
-
-
-    if (
-      shuffle &&
-      songs.length > 1
-    ) {
-
-      let next;
-
-      do {
-
-        next =
-          Math.floor(
-            Math.random() *
-            songs.length
-          );
-
-      } while (
-        next === currentIndex
-      );
-
-
-      loadSong(next);
-
-    }
-
-    else {
-
-      currentIndex++;
-
-      if (
-        currentIndex >=
-        songs.length
-      ) {
-
-        currentIndex = 0;
-
-      }
-
-      loadSong(currentIndex);
-
-    }
-
-  }
-
-
-  // Previous Song
-  function previousSong() {
-
-    if (!songs.length) return;
-
-    currentIndex--;
-
-    if (currentIndex < 0) {
-
-      currentIndex =
-        songs.length - 1;
-
-    }
-
-    loadSong(currentIndex);
-
-  }
-
-
-  // Shuffle
-  function toggleShuffle() {
-
-    shuffle = !shuffle;
-
-    document.getElementById(
-      "shuffleBtn"
-    ).textContent =
-      shuffle
-        ? "🔀 Shuffle ON"
-        : "🔀 Shuffle OFF";
-
-  }
-
-
-  // Repeat
-  function toggleRepeat() {
-
-    repeat = !repeat;
-
-    document.getElementById(
-      "repeatBtn"
-    ).textContent =
-      repeat
-        ? "🔁 Repeat ON"
-        : "🔁 Repeat OFF";
-
-  }
-
-
-  // Add Song
-  function addSong() {
-
-    const input =
-      document.getElementById(
-        "youtubeUrl"
-      );
-
-    const url =
-      input.value.trim();
-
-
-    const id =
-      getYouTubeId(url);
-
-
-    if (!id) {
-
-      alert(
-        "Please enter a valid YouTube URL."
-      );
-
-      return;
-
-    }
-
-
-    songs.push({
-
-      id: id,
-
-      name:
-        "YouTube Song " +
-        songs.length
-
-    });
-
-
-    input.value = "";
-
-    renderPlaylist();
-
-
-    if (songs.length === 1) {
-
-      loadSong(0);
-
-    }
-
-  }
-
-
-  // Delete Song
-  function deleteSong(index) {
-
-    songs.splice(index, 1);
-
-
-    if (!songs.length) {
-
-      player.src = "";
-
-      nowPlaying.textContent =
-        "Select a song";
-
-      renderPlaylist();
-
-      return;
-
-    }
-
-
-    if (
-      currentIndex >=
-      songs.length
-    ) {
-
-      currentIndex = 0;
-
-    }
-
-
-    loadSong(currentIndex);
-
-  }
-
-
-  // Playlist UI
-  function renderPlaylist() {
-
-    playlist.innerHTML = "";
-
-
-    songs.forEach(
-      (song, index) => {
-
-        const div =
-          document.createElement(
-            "div"
-          );
-
-
-        div.className =
-          "song " +
-          (
-            index === currentIndex
-              ? "active"
-              : ""
-          );
-
-
-        div.innerHTML = `
-
-          <div class="song-name">
-            ${index + 1}. ${song.name}
-          </div>
-
-          <button
-            class="delete"
-            onclick="
-              event.stopPropagation();
-              deleteSong(${index})
-            ">
-            🗑
-          </button>
-
-        `;
-
-
-        div.onclick = () =>
-          loadSong(index);
-
-
-        playlist.appendChild(div);
-
-      }
-    );
-
-  }
-
-
-  // Start
-  renderPlaylist();
-
-  loadSong(0);
-
-
-</script>
+  </script>
 
 </body>
 </html>
